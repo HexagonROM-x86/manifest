@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- BEGIN HEXAGON-->
+  <project path="device/qcom/sepolicy" name="HexagonRom-x86/android_device_qcom_sepolicy" remote="hexagon" />
+  <project path="external/DUtils" name="HexagonRom-x86/android_external_DUtils" remote="hexagon" />
+  <project path="frameworks/av" name="HexagonRom-x86/frameworks_av" groups="pdk" remote="hexagon" />
+  <project path="frameworks/base" name="HexagonRom-x86/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="hexagon"/>
+  <project path="frameworks/native" name="HexagonRom-x86/frameworks_native" groups="pdk" remote="hexagon" />
+  <project path="frameworks/opt/cards" name="HexagonRom-x86/frameworks_opt_cards" remote="hexagon" />
+  <project path="frameworks/rs" name="HexagonRom-x86/frameworks_rs" groups="pdk" remote="hexagon" />  
+  <project path="packages/apps/AudioFX" name="HexagonRom-x86/android_packages_apps_AudioFX" remote="hexagon" />
+  <project path="packages/apps/Calendar" name="HexagonRom-x86/android_packages_apps_Calendar" remote="hexagon" />
+  <project path="packages/apps/Camera2" name="HexagonRom-x86/packages_apps_Camera2" remote="hexagon" />
+  <project path="packages/apps/CMFileManager" name="HexagonRom-x86/android_packages_apps_CMFileManager" remote="hexagon" />
+  <project path="packages/apps/CMParts" name="HexagonRom-x86/packages_apps_CMParts" remote="hexagon" />
+  <project path="packages/apps/Contacts" name="HexagonRom-x86/android_packages_apps_Contacts" remote="hexagon" />
+  <project path="packages/apps/ContactsCommon" name="HexagonRom-x86/android_packages_apps_ContactsCommon" remote="hexagon" />
+  <project path="packages/apps/DeskClock" name="HexagonRom-x86/android_packages_apps_DeskClock" groups="pdk-fs" remote="hexagon" />
+  <project path="packages/apps/Dialer" name="HexagonRom-x86/android_packages_apps_Dialer" remote="hexagon" />
+  <project path="packages/apps/DUI" name="HexagonRom-x86/android_packages_apps_DUI" remote="hexagon" />
+  <project path="packages/apps/Eleven" name="HexagonRom-x86/android_packages_apps_Eleven" remote="hexagon" />
+  <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
+  <project path="packages/apps/ExactCalculator" name="HexagonRom-x86/android_packages_apps_ExactCalculator" remote="hexagon" />
+  <project path="packages/apps/Gallery2" name="HexagonRom-x86/android_packages_apps_Gallery2" remote="hexagon" />
+  <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" />
+  <project path="packages/apps/HexagonRom" name="HexagonRom-x86/android_packages_apps_HexagonRom" remote="hexagon" />
+  <project path="packages/apps/HexCenter" name="HexagonRom-x86/android_packages_apps_HexCenter" remote="hexagon" />
+  <project path="packages/providers/MediaProvider" name="HexagonRom-x86/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="hexagon" />
+  <project path="packages/apps/Messaging" name="HexagonRom-x86/android_packages_apps_Messaging" remote="hexagon" />
+  <project path="packages/apps/PackageInstaller" name="HexagonRom-x86/packages_apps_PackageInstaller" groups="pdk-fs" remote="hexagon" />
+  <project path="packages/apps/PhoneCommon" name="HexagonRom-x86/android_packages_apps_PhoneCommon" remote="hexagon" />
+  <project path="packages/apps/Recorder" name="HexagonRom-x86/android_packages_apps_Recorder" remote="hexagon" />
+  <project path="packages/apps/Settings" name="HexagonRom-x86/android_packages_apps_Settings" remote="hexagon" />
+  <project path="packages/apps/SetupWizard" name="HexagonRom-x86/android_packages_apps_SetupWizard" remote="hexagon" />
+  <project path="packages/apps/Stk" name="HexagonRom-x86/android_packages_apps_Stk" remote="hexagon" />
+  <project path="packages/apps/UnifiedEmail" name="HexagonRom-x86/android_packages_apps_UnifiedEmail" remote="hexagon" />
+  <project path="packages/services/Telephony" name="HexagonRom-x86/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="hexagon" />
+  <project path="packages/services/Telecomm" name="HexagonRom-x86/packages_services_Telecomm" remote="hexagon" />
+  <project path="platform_manifest" name="HexagonRom-x86/android_platform_manifest" remote="hexagon" />
+  <project path="prebuilts/build-tools" name="HexagonRom-x86/prebuilts_build-tools" remote="hexagon" />
+  <project path="system/core" name="HexagonRom-x86/android_system_core" groups="pdk" remote="hexagon" />
+  <project path="system/sepolicy" name="HexagonRom-x86/system_sepolicy" groups="pdk" remote="hexagon" />
+  <project path="vendor/hexagon" name="HexagonRom-x86/android_vendor_hexagon" remote="hexagon" />
+  <project path="vendor/codeaurora/telephony" name="HexagonRom-x86/vendor_codeaurora_telephony" remote="hexagon"/>
+<!-- END HEXAGON -->
+
+  <project path="kernel" name="kernel_common" remote="hexagon" revision="hex-7.1" />
+  <project path="bionic" name="platform_bionic" remote="hexagon" revision="hex-7.1" />
+  <project path="bootable/newinstaller" name="bootable_newinstaller" remote="hexagon" revision="hex-7.1" />
+  
+  <project path="device/generic/x86" name="device_generic_x86" remote="hexagon" revision="hex-7.1" />
+  <project path="device/generic/x86_64" name="device_generic_x86_64" remote="hexagon" revision="hex-7.1" />
+  <project path="device/generic/common" name="device_generic_common" remote="hexagon" revision="hex-7.1" />
+  <project path="device/generic/firmware" name="device_generic_firmware" remote="hexagon" revision="hex-7.1" />
+  
+  <project path="external/v86d" name="platform_external_v86d" remote="hexagon" revision="hex-7.1" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="hexagon" revision="hex-7.1" />
+  <project path="external/mesa" name="mesa" remote="hexagon" revision="hex-7.1" />
+  <project path="external/libdrm" name="external_libdrm" groups="pdk" remote="hexagon" revision="hex-7.1" />
+
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="hexagon" revision="hex-7.1" />
+  <project path="frameworks/support" name="platform_frameworks_support" remote="hexagon" revision="hex-7.1" />
+  
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="hexagon" revision="hex-7.1" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="hexagon" revision="hex-7.1" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="hexagon" revision="hex-7.1" />>
+  <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="hexagon" revision="hex-7.1" />
+  <project path="hardware/nvidia/power" name="platform_hardware_nvidia_power" remote="hexagon"revision="hex-7.1" />
+  <project path="hardware/libaudio" name="hardware-libaudio" remote="hexagon" revision="hex-7.1" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="hexagon" revision="hex-7.1" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="hexagon" revision="hex-7.1" />
+  <project path="system/vold" name="platform_system_vold" remote="hexagon" revision="hex-7.1" />
+  <project path="system/netd" name="platform_system_netd" groups="pdk" remote="hexagon" revision="hex-7.1" />
+    
+<!-- END BLISS -->
+
+<!-- BEGIN SUPERSU -->
+
+  <project path="vendor/supersu" name="vendor-supersu" remote="hexagon" revision="hex-7.1" />
+
+<!-- END SUPERSU -->
+
+<!-- BEGIN INTEL-HOUDINI -->
+	
+  <project path="vendor/intel/houdini" name="vendor-intel-houdini" remote="hexagon" revision="hex-7.1" />
+	
+<!-- END INTEL-HOUDINI -->	
+
+
+  <!-- OmniRom additions -->
+  <project name="omnirom/android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="omni" revision="android-7.1" />
+</manifest>
