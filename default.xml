@@ -648,6 +648,6 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="" />
 <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="tradefed" />
 
-
-
 <include name="snippets/hex-7.1.xml" />
+</manifest>
+
