@@ -651,6 +651,3 @@
 
 
 <include name="snippets/hex-7.1.xml" />
-
-</manifest>  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="x86" revision="nougat-x86" />
-
